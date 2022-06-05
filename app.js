@@ -1,15 +1,15 @@
-
 let guess;
 let number = Math.floor(Math.random() * 100 + 1);
 let life = 5;
 let stop = 100;
 let start = 0;
 let answer;
+console.log(number);
 do {
   do {
     guess = +prompt(`Please enter your guess ${start} between ${stop}`);
     life--;
-   
+
     if (number === guess) {
       console.log(`You are right! Congrats! You know ${5 - life}. guess.`);
       break;
