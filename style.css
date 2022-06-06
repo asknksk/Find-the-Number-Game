@@ -19,17 +19,14 @@ header {
   display: flex;
   flex-direction: column;
   align-items: center;
+  margin-bottom: 2rem;
+  padding-top: 1rem;
 }
-header p {
-  margin-bottom: 1rem;
-  color: white;
-  font-size: 2rem;
-}
+
 h1 {
   text-align: center;
   font-size: 3rem;
   color: whitesmoke;
-  padding-top: 1rem;
 }
 /********************** MAIN  ***********************/
 main {
@@ -64,6 +61,7 @@ main {
   width: 4rem;
   color: white;
   box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+  transition: transform 0.2s;
 }
 #btn:hover {
   cursor: pointer;
@@ -84,4 +82,24 @@ main {
   padding-top: 2rem;
   padding-bottom: 2rem;
   font-size: 1.5rem;
+}
+/******* RESET *****/
+.reset {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.reset-btn {
+  width: 6rem;
+  height: 4rem;
+  text-align: center;
+  border: none;
+  background-color: brown;
+  color: white;
+  box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+  transition: transform 0.2s;
+}
+.reset-btn:hover {
+  cursor: pointer;
+  transform: scale(1.1);
 }
