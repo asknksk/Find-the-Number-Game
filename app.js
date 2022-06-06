@@ -33,23 +33,3 @@ function guessGame() {
   }
   guess.value = ``;
 }
-
-// do {
-//   do {
-//     guess = +prompt(`Please enter your guess ${start} between ${stop}`);
-//     life--;
-
-//     if (number === guess) {
-//       console.log(`You are right! Congrats! You know ${5 - life}. guess.`);
-//       break;
-//     } else if (number > guess) {
-//       start = guess;
-//       console.log(`Please improve your number. You Left ${life} life.`);
-//     } else if (number < guess) {
-//       stop = guess;
-//       console.log(`Please lower your number. You Left ${life} life.`);
-//     }
-//   } while (life > 0);
-//   answer = prompt("Did you like it? If you want to play again please type y/Y ");
-// } while (answer === "y" || answer === "Y");
-// console.log("The game is finished");

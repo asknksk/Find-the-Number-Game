@@ -9,15 +9,27 @@
   </head>
   <body>
     <header>
-      <h1>Please enter your guess</h1>
-      <p id="between">(between 1-100)</p>
+      <h1>Please Enter Your Guess <span id="between">between 1-100</span></h1>
     </header>
-    <div>
-      <input type="number" name="guess" id="guess" autofocus />
-      <button id="btn">CHECK</button>
-      <p id="parag"></p>
-    </div>
-    <p id="log"></p>
+    <main>
+      <div class="guess-div">
+        <p id="parag"></p>
+        <input
+          type="number"
+          name="guess"
+          id="guess"
+          autofocus
+          placeholder="Enter Your Number"
+        />
+        <button id="btn">CHECK</button>
+      </div>
+
+      <div class="log-div">
+        <h2>The predictions you entered</h2>
+        <p id="log"></p>
+      </div>
+    </main>
+
     <script src="app.js"></script>
   </body>
 </html>
