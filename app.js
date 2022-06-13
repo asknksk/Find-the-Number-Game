@@ -24,6 +24,7 @@ function guessGame() {
       parag.innerHTML = `🎉🎉You are right! Congrats! You knew ${
         5 - life
       }th try.🎉🎉`;
+      btn.style.display = "none";
     } else if (number > parseInt(guess.value) && life != 0) {
       start = parseInt(guess.value);
       parag.innerHTML = `Please try a higher number. You have ${life} life left.`;
