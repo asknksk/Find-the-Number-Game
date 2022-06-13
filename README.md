@@ -2,7 +2,7 @@
 
 # Project Preview
 
-![Alt Text]()
+![Alt Text](https://github.com/asknksk/Find-the-Number-Game/blob/master/Animation_Preview.gif)
 
 ## Project Link
 
